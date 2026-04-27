@@ -41,6 +41,12 @@ local Button = Tab:CreateButton({
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3827.797607421875, 375.0107727050781, -2263.984619140625)
    end,
 })  
+local Button = Tab:CreateButton({
+      Name = "1Sx",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(267.2784729003906, 1157.960205078125, -3025.614990234375)
+   end,
+})  
 
 local Section2 = Tab:CreateSection("BodyThounas")
 
@@ -54,6 +60,12 @@ local Button = Tab:CreateButton({
    Name = "1Qi",
    Callback = function()
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5363.42724609375, 2292.02587890625, 1486.2418212890625)
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "1Sx",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1205.84765625, 372.87384033203125, -3036.9853515625)
    end,
 })
 
@@ -71,3 +83,9 @@ local Button = Tab:CreateButton({
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2646.2529296875, 5570.673828125, -430.6393127441406)
    end,
 })  
+local Button = Tab:CreateButton({
+   Name = "1Sx",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2426.359619140625, 241.9427490234375, -407.4396057128906)
+   end,
+})
